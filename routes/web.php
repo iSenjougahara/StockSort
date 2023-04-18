@@ -42,6 +42,11 @@ Route::get('/users', function () {
 
 });
 
+Route::get('/editUser', function () {
+
+    return view('editUser');
+});
+
   Route::get('/', function () {
      return view('welcome');
  });
